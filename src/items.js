@@ -4,23 +4,23 @@ module.exports = [
 		url: 'https://shisama.github.io'
 	},
 	{
-		label: 'Twitter',
+		label: 'Twitter: \u001b[36m@shisama_\u001b[0m',
 		url: 'https://twitter.com/shisama_'
 	},
 	{
-		label: 'GitHub',
+		label: 'GitHub: \u001b[33mshisama\u001b[0m',
 		url: 'https://github.com/shisama'
 	},
 	{
-		label: 'Facebook',
+		label: 'Facebook: \u001b[34mmasashi07\u001b[0m',
 		url: 'https://www.facebook.com/masashi07'
 	},
 	{
-		label: 'Qiita',
+		label: 'Qiita: \u001b[32mshisama\u001b[0m',
 		url: 'https://qiita.com/shisama/'
 	},
 	{
-		label: 'dev.to',
+		label: 'dev.to: \u001b[35mshisama\u001b[0m',
 		url: 'https://dev.to/shisama'
 	},
 	{

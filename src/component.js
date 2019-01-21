@@ -20,7 +20,7 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>Hello, I'm shisama. Web developer.</Text>
+			<Text>Hello, I'm Masashi Hirano. Node.js Core Collaborator.</Text>
 		</div>
 		<br/>
 		<Text>About me >></Text>

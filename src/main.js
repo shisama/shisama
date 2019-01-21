@@ -11,7 +11,7 @@ const ui = importJsx('./component');
 
 meow(`
 	Usage
-	  $ shisama
+	  $ npx shisama
 `);
 
 const fallback = async () => {
