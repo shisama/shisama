@@ -1,11 +1,11 @@
 module.exports = [
 	{
 		label: 'Website',
-		url: 'https://shisama.github.io'
+		url: 'https://shisama.dev'
 	},
 	{
-		label: 'Twitter: \u001b[36m@shisama_\u001b[0m',
-		url: 'https://twitter.com/shisama_'
+		label: 'X: \u001b[36m@shisama_\u001b[0m',
+		url: 'https://x.com/shisama_'
 	},
 	{
 		label: 'GitHub: \u001b[33mshisama\u001b[0m',
