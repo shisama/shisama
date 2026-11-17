@@ -1,6 +1,6 @@
 {
 	"name": "shisama",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "npx shisama",
 	"main": "src/main.js",
 	"license": "MIT",
@@ -12,10 +12,10 @@
 		"url": "https://shisama.github.io"
 	},
 	"bin": {
-		"shisama": "src/wrapper.js"
+		"shisama": "src/main.js"
 	},
 	"engines": {
-		"node": ">=22.0.0"
+		"node": ">=24.0.0"
 	},
 	"scripts": {
 		"main": "tsx src/main.js",
