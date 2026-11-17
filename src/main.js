@@ -1,24 +1,27 @@
 #!/usr/bin/env node
-'use strict';
-const path = require('path');
-const meow = require('meow');
-const termImg = require('term-img');
-const terminalImage = require('terminal-image');
-const importJsx = require('import-jsx');
-const {h, render} = require('ink');
+import path from 'path';
+import {fileURLToPath} from 'url';
+import meow from 'meow';
+import termImg from 'term-img';
+import terminalImage from 'terminal-image';
+import React from 'react';
+import {render} from 'ink';
+import UI from './component.jsx';
 
-const ui = importJsx('./component');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 meow(`
 	Usage
 	  $ npx shisama
-`);
+`, {
+	importMeta: import.meta
+});
 
 const fallback = async () => {
 	const image = await terminalImage.file(path.join(__dirname, 'avatar.png'));
 	console.log(image);
 };
 
-termImg(path.join(__dirname, 'avatar.png'), {fallback});
+console.log(termImg(path.join(__dirname, 'avatar.png'), {fallback}));
 
-render(h(ui));
+render(React.createElement(UI));
